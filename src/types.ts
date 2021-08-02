@@ -116,6 +116,8 @@ export interface IAceOptions {
   enableEmmet?: boolean;
   enableBasicAutocompletion?: boolean;
   enableLiveAutocompletion?: boolean;
+  liveAutocompletionDelay?: number;
+  liveAutocompletionThreshold?: number;
   enableSnippets?: boolean;
   spellcheck?: boolean;
   useElasticTabstops?: boolean;

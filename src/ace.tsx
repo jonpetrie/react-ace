@@ -46,6 +46,8 @@ export interface IAceEditorProps {
   debounceChangePeriod?: number;
   enableBasicAutocompletion?: boolean | string[];
   enableLiveAutocompletion?: boolean | string[];
+  liveAutocompletionDelay?: number;
+  liveAutocompletionThreshold?: number;
   tabSize?: number;
   value?: string;
   placeholder?: string;

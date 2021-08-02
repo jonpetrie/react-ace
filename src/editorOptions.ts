@@ -8,6 +8,8 @@ type EditorOption =
   | "tabSize"
   | "enableBasicAutocompletion"
   | "enableLiveAutocompletion"
+  | "liveAutocompletionDelay"
+  | "liveAutocompletionThreshold"
   | "enableSnippets";
 
 const editorOptions: EditorOption[] = [
@@ -18,6 +20,8 @@ const editorOptions: EditorOption[] = [
   "tabSize",
   "enableBasicAutocompletion",
   "enableLiveAutocompletion",
+  "liveAutocompletionDelay",
+  "liveAutocompletionThreshold",
   "enableSnippets"
 ];
 

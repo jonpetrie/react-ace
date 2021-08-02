@@ -9,6 +9,8 @@ export interface IDiffEditorProps {
   editorProps?: object;
   enableBasicAutocompletion?: boolean | string[];
   enableLiveAutocompletion?: boolean | string[];
+  liveAutocompletionDelay?: number;
+  liveAutocompletionThreshold?: number;
   focus?: boolean;
   fontSize?: number;
   height?: string;
